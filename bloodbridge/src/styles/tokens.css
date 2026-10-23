@@ -1,0 +1,96 @@
+/* ==========================================================================
+   BloodBridge — Design tokens
+   Single source of truth for colour, type, spacing, radii, elevation.
+   ========================================================================== */
+
+:root {
+  /* Brand */
+  --red-600: #d62839;
+  --red-700: #b81f2e;
+  --red-800: #971a26;
+  --red-500: #e2404f;
+  --red-100: #fbe3e5;
+  --red-50: #fdf2f3;
+
+  /* Neutrals */
+  --white: #ffffff;
+  --bg: #f8f9fb;
+  --bg-sunken: #f2f4f8;
+  --border: #e6e9f0;
+  --border-strong: #d5dae4;
+  --text: #252b36;
+  --text-muted: #697386;
+  --text-subtle: #6e7686;
+
+  /* Status */
+  --success: #10714f;
+  --success-bg: #e7f6f0;
+  --success-border: #bfe6d7;
+  --warning: #9a6100;
+  --warning-bg: #fff5e5;
+  --warning-border: #f6dfb4;
+  --danger: #c02434;
+  --danger-bg: #fdeced;
+  --danger-border: #f6c9cd;
+  --info: #1f5aa8;
+  --info-bg: #ecf2fb;
+  --info-border: #cbdcf3;
+  --neutral: #5b6475;
+  --neutral-bg: #f1f3f7;
+  --neutral-border: #dfe3ea;
+  --purple: #5b3fa8;
+  --purple-bg: #f2eefc;
+  --purple-border: #ddd2f5;
+
+  /* Typography */
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
+
+  --fs-2xs: 11px;
+  --fs-xs: 12px;
+  --fs-sm: 13px;
+  --fs-md: 14px;
+  --fs-lg: 16px;
+  --fs-xl: 18px;
+  --fs-2xl: 22px;
+  --fs-3xl: 28px;
+  --fs-4xl: 34px;
+  --fs-5xl: 44px;
+
+  /* Spacing scale (4px base) */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-7: 32px;
+  --sp-8: 40px;
+  --sp-9: 48px;
+
+  /* Radii */
+  --r-sm: 6px;
+  --r-md: 8px;
+  --r-lg: 12px;
+  --r-xl: 16px;
+  --r-full: 999px;
+
+  /* Elevation */
+  --shadow-xs: 0 1px 2px rgba(37, 43, 54, 0.06);
+  --shadow-sm: 0 2px 6px rgba(37, 43, 54, 0.06);
+  --shadow-md: 0 8px 24px rgba(37, 43, 54, 0.08);
+  --shadow-lg: 0 20px 48px rgba(37, 43, 54, 0.14);
+
+  /* Layout */
+  --sidebar-w: 258px;
+  --topbar-h: 64px;
+  --content-max: 1360px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur-fast: 120ms;
+  --dur: 180ms;
+  --dur-slow: 260ms;
+}
